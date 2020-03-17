@@ -1,0 +1,93 @@
+body {
+  background-color: #464f54;
+  padding: 150px 0 0 0;
+}
+.mainer {
+  max-width: 1060px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 0 35px rgb(0, 0, 0, 0.3);
+}
+.mainer .block-change {
+  max-width: 1060px;
+  box-sizing: border-boxs;
+  background-color: #181818;
+  padding: 50px 60px 43px 60px;
+  position: relative;
+  left: 254px;
+  top: -102px;
+}
+.mainer .block-change .title {
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  color: #767676;
+  letter-spacing: 2px;
+}
+.mainer .block-change .change-text {
+  font-size: 48px;
+  width: 350px;
+  font-family: "Playfair Display", serif;
+  color: #fefefe;
+  line-height: 42px;
+  padding: 0 4px 4px 0px;
+  margin: 7px 0 0 0;
+  border-right: 2px solid #afb1b3;
+}
+.mainer .block-change hr {
+  margin-top: 10px;
+  background: #303030;
+  border: none;
+  height: 2px;
+}
+.block-tools ul {
+  background-color: #f4bb2c;
+  position: relative;
+  top: -102px;
+  max-width: 550px;
+  left: 320px;
+  padding: 21px 42px;
+  color: #f9dc94;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 32px;
+}
+.block-tools ul li:not(:last-child) {
+  margin-right: 17px;
+}
+.block-tools ul li:hover {
+  color: #fdfdfd;
+}
+main {
+  padding: 0 125px;
+  position: relative;
+  top: -60px;
+}
+main .name {
+  font-family: "Proxima Nova";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #cacaca;
+  letter-spacing: 3px;
+}
+main h1 {
+  font-size: 77px;
+  color: #2a2a2a;
+  margin: 20px 0 0 0;
+  text-transform: uppercase;
+  font-family: "Futura";
+  font-weight: bold;
+}
+main .caption {
+  font-size: 30px;
+  font-style: italic;
+  color: #8f8f8f;
+  font-family: "Georgia", sans-serif;
+}
+main p {
+  font-size: 27px;
+  color: #000;
+  font-family: "Georgia", sans-serif;
+  margin: 40px 0 0 0;
+}
